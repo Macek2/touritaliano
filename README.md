@@ -6,7 +6,7 @@
 -HTML5
 -CSS
 
-**Screenshots:**
+**SCREENSHOTS:**
 ![1](https://github.com/Macek2/touritaliano/assets/139150464/44d9b6c7-cdaf-449b-b8f5-66369b58cfb4)
 ![2](https://github.com/Macek2/touritaliano/assets/139150464/65006eee-6ec0-4544-a057-bea17bd5de30)
 ![3](https://github.com/Macek2/touritaliano/assets/139150464/4991f51d-a5ff-476e-a03e-4e9679e2ece7)
