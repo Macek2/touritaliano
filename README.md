@@ -1,7 +1,8 @@
-**Simple travel agency website**
+**SIMPLE TRAVEL AGENCY WEBSITE***
+
 *A project for high school credit including basic CSS and HTML mechanisms.*
 
-**What I used?**
+**WHAT I USED?**
 -HTML5
 -CSS
 
