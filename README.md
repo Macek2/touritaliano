@@ -3,8 +3,10 @@
 *A project for high school credit including basic CSS and HTML mechanisms.*
 
 **WHAT I USED?**
--HTML5
--CSS
+
+*- HTML5*
+
+*- CSS*
 
 **SCREENSHOTS:**
 ![1](https://github.com/Macek2/touritaliano/assets/139150464/44d9b6c7-cdaf-449b-b8f5-66369b58cfb4)
