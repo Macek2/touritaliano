@@ -1,4 +1,4 @@
-**SIMPLE TRAVEL AGENCY WEBSITE***
+**SIMPLE TRAVEL AGENCY WEBSITE**
 
 *A project for high school credit including basic CSS and HTML mechanisms.*
 
