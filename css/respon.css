@@ -1,0 +1,1044 @@
+@media only screen and (max-width: 680px) {
+ #menu {
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+}
+#menu > ul{
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    z-index: 7;
+}      
+#menu > ul > li{  
+    float: left;
+    width: 100%;
+}        
+#menu > ul > li > a{
+    display: block;
+    padding: 4%;
+    border: 3px solid #f3ecdb;
+    border-collapse: collapse;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 100%;
+    font-weight: 600;
+    z-index: 9;
+    transition-duration: 0.5s;
+}    
+    /*Footer*/
+footer{
+    position: relative;
+    margin-top: 5%;
+    height: 13em;
+    width: 100%;
+    bottom: 0;
+    background-color: #4169E1;
+}  
+footer a img{
+    padding: 15%;
+    margin-top: 15%;
+}   
+footer h3{
+    margin-top: -11%;
+    margin-right: 23%;
+    font-size: 125%;
+}   
+footer .linki{
+    margin-top:-8%;
+    font-size: 125%
+}
+  
+}
+
+@media only screen and (max-width: 960px){  
+/* Cennik */
+#cennik{
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+#cennik h2{
+    margin-left: 1%;
+    font-size: 180%;
+}
+#cennik table{
+    margin-left: 15%;
+    width: 70%;
+}
+#cennik table th{
+    font-size: 110%;
+}
+#cennik table td{
+    font-size: 110%;
+    font-weight: 600;
+}
+    
+ /* Oferta */
+#oferta{
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+#oferta .oferta h2{
+    margin-left: 5%;
+    font-size: 180%;
+}
+#oferta .oferta figure{
+    position: relative;
+    width: 60%;
+    height: 50%;
+    display: block;
+    margin-left: 20%;
+}
+#oferta .oferta  figure img{
+    width: 100%;
+}
+#oferta .oferta figure h3{
+    font-size: 170%;
+    margin-right: 42%;
+    margin-top: 1%;
+}
+#oferta .oferta figcaption{
+    font-size: 120%;
+    font-weight: 600;
+}   
+    
+ /* O nas */
+#o-nas{
+    margin-top: 10%;
+    margin-bottom: 6%;
+}
+#o-nas .historia h2{;
+    font-size: 190%;
+}
+#o-nas .historia p{
+    font-size: 130%;
+    font-weight: 600;
+}
+#o-nas .opis h2{
+    font-size: 190%;
+}
+#o-nas .opis p{
+    font-size: 130%;
+    font-weight: 600;
+}
+#o-nas .galeria h2{
+    font-size: 190%;
+}
+#o-nas .galeria p{
+    font-size: 130%;
+    font-weight: 600;
+}
+#o-nas .galeria a{
+    margin-left: 46%;
+    font-size: 160%;
+}
+    
+/* Main */
+main h2{
+    font-size: 200%; 
+}
+main .start p{
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 140%;
+    font-weight: 600;
+}
+main #informacje{
+    margin-top: 10%;
+    margin-bottom: 6%;
+}
+main #informacje a{
+    font-size: 160%;
+    margin-left: 42%;
+}
+main .atrakcje{
+    margin-top: 3%;
+}
+main .atrakcje p{
+    font-size: 140%;
+}
+main .atrakcje h2{
+    font-size: 190%;
+}
+main .statystyki{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+main .statystyki figure{
+    background-color: #4169E1;
+    margin: 0 auto;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: baseline;
+}
+main .statystyki figure img{
+    margin-left: 2%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    margin-right: -1%;
+}
+main .statystyki figcaption{
+    font-size: 120%;
+    text-align: center;    
+}
+    
+/* Kontakt */
+#kontakt{
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+#kontakt .box h2{
+    font-size: 180%;
+}
+#kontakt .box{
+    margin-left:15%;
+    margin-right: 15%;
+}
+#kontakt .box fieldset{
+    padding: 4%;
+}
+#kontakt fieldset p{
+    font-size: 120%;
+    margin-bottom: -2%;
+    }
+    
+/*Footer*/
+footer{
+    position: relative;
+    margin-top: 5%;
+    height: 11em;
+    width: 100%;
+    bottom: 0;
+    background-color: #4169E1;
+}  
+footer a img{
+    padding: 15%;
+    margin-top: 15%;
+}   
+footer h3{
+    margin-top: -11%;
+    margin-right: 23%;
+    font-size: 125%;
+}   
+footer .linki{
+    margin-top:-8%;
+    font-size: 125%
+}
+    
+}
+
+
+
+@media only screen and (max-width: 320px){
+/* Header */
+    #home .logo img{
+    width: 45%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 28%;
+    overflow: hidden;
+    }   
+
+/* Menu */
+#menu {
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+}
+nav#menu > ul{
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    z-index: 7;
+}      
+nav#menu > ul > li{  
+    float: left;
+    width: 100%;
+}        
+nav#menu > ul > li > a{
+    display: block;
+    padding: 3%;
+    border: 3px solid #f3ecdb;
+    border-collapse: collapse;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 100%;
+    font-weight: 600;
+    z-index: 9;
+    transition-duration: 0.5s;
+}     
+    
+/* Cennik */
+#cennik{
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+#cennik h2{
+    margin-left: 1%;
+    font-size: 150%;
+}
+#cennik table{
+    margin-left: 10%;
+    width: 80%;
+}
+#cennik table th{
+    font-size: 90%;
+}
+#cennik table td{
+    font-size: 90%;
+    font-weight: 600;
+}
+    
+ /* Oferta */
+section#oferta{
+    margin-top: 65%;
+    margin-bottom: 5%;
+}
+#oferta .oferta h2{
+    margin-left: 5%;
+    font-size: 140%;
+}
+#oferta .oferta figure{
+    position: relative;
+    width: 60%;
+    display: block;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#oferta .oferta  figure img{
+    width: 100%;
+}
+#oferta .oferta figure h3{
+    font-size: 140%;
+    margin-right: 26%;
+    margin-top: 1%;
+}
+#oferta .oferta figcaption{
+    font-size: 100%;
+    font-weight: 600;
+    text-align: center;
+}   
+    
+ /* O nas */
+section#o-nas{
+    margin-top: 65%;
+    margin-bottom: 6%;
+}
+#o-nas .historia h2{;
+    font-size: 140%;
+}
+#o-nas .historia p{
+    font-size: 110%;
+    font-weight: 600;
+    text-align: left;
+}
+#o-nas .opis h2{
+    font-size: 140%;
+}
+#o-nas .opis p{
+    font-size: 110%;
+    font-weight: 600;
+    text-align: left;
+}
+#o-nas .galeria h2{
+    font-size: 140%;
+    margin-right: 6%;
+    margin-top: 10%;
+}
+#o-nas .galeria p{
+    font-size: 110%;
+    font-weight: 600;
+    text-align: left;
+}
+#o-nas .galeria a{
+    margin-left: 35%;
+    font-size: 140%;
+}
+    
+/* Galeria */
+section#galeria{
+    margin-top: 65%;
+    margin-bottom: 10%;
+}
+section#galeria h2{
+    font-size: 180%;
+    margin-bottom: 3%;
+}  
+
+/*Slajder*/
+#container{
+    display: none;
+}
+    
+/* Main */
+main .start p{
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 120%;
+    font-weight: 600;
+}
+main #informacje{
+    margin-top: 65%;
+    margin-bottom: 6%;
+}
+main #informacje a{
+    font-size: 130%;
+    margin-left: 32%;
+}
+main .atrakcje{
+    margin-top: 3%;
+}
+main .atrakcje p{
+    font-size: 120%;
+}
+main .atrakcje h2{
+    font-size: 140%;
+}
+main .statystyki{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+main .statystyki figure{
+    background-color: #4169E1;
+    margin: 0 auto;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: baseline;
+}
+main .statystyki figure img{
+    width: 20%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-right: 1%;
+    margin-left: 3.5%
+}
+main .statystyki figcaption{
+    display: none;  
+}
+    
+/* Kontakt */
+section#kontakt{
+    margin-top: 65%;
+    margin-bottom: 5%;
+}
+#kontakt .box h2{
+    font-size: 140%;
+}
+#kontakt .box{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+#kontakt .box fieldset{
+    padding: 4%;
+}
+#kontakt fieldset p{
+    font-size: 100%;
+    margin-bottom: -2%;
+    }
+#kontakt input[type=text]{
+    width: 60%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    margin-left: 20%;
+    margin-bottom: -2%;
+}
+#kontakt textarea
+{
+    width: 60%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    margin-left: 20%;
+    margin-bottom: -2%;
+}
+#kontakt input[type=submit]
+{
+    width: 40%;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    margin-left: 28%;
+    margin-top: 2%;
+}
+#kontakt input[type=submit]:hover
+{
+    background-color: #69AC12;
+}
+#kontakt input[type=reset]{
+    width: 40%;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    margin-top: 2%;
+    margin-left: 28%;
+}
+#kontakt input[type=reset]:hover
+{
+    background-color: #FC0A1C;
+}
+   
+    
+/*Footer*/
+footer{
+    position: relative;
+    margin-top: 6%;
+    height: 11em;
+    width: 100%;
+    bottom: 0;
+    background-color: #4169E1;
+}  
+footer a img{
+    padding: 5%;
+    margin-top: 30%;
+    width: 70%;
+    margin-left: 10%;
+}   
+footer h3{
+   display: none;
+}   
+footer .linki{
+   display: none;
+}
+}
+
+@media only screen and (max-width: 375px){
+/* Header */
+    #home .logo img{
+    width: 45%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 28%;
+    overflow: hidden;
+    }   
+
+/* Menu */
+#menu {
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+}
+nav#menu > ul{
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    z-index: 7;
+}      
+nav#menu > ul > li{  
+    float: left;
+    width: 100%;
+}        
+nav#menu > ul > li > a{
+    display: block;
+    padding: 4%;
+    border: 3px solid #f3ecdb;
+    border-collapse: collapse;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 100%;
+    font-weight: 600;
+    z-index: 9;
+    transition-duration: 0.5s;
+}     
+    
+/* Cennik */
+#cennik{
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+#cennik h2{
+    margin-left: 1%;
+    font-size: 150%;
+}
+#cennik table{
+    margin-left: 10%;
+    width: 80%;
+}
+#cennik table th{
+    font-size: 90%;
+}
+#cennik table td{
+    font-size: 90%;
+    font-weight: 600;
+}
+    
+ /* Oferta */
+section#oferta{
+    margin-top: 65%;
+    margin-bottom: 5%;
+}
+#oferta .oferta h2{
+    margin-left: 5%;
+    font-size: 140%;
+}
+#oferta .oferta figure{
+    position: relative;
+    width: 60%;
+    display: block;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#oferta .oferta  figure img{
+    width: 100%;
+}
+#oferta .oferta figure h3{
+    font-size: 140%;
+    margin-right: 26%;
+    margin-top: 1%;
+}
+#oferta .oferta figcaption{
+    font-size: 100%;
+    font-weight: 600;
+    text-align: center;
+}   
+    
+ /* O nas */
+section#o-nas{
+    margin-top: 65%;
+    margin-bottom: 6%;
+}
+#o-nas .historia h2{;
+    font-size: 140%;
+}
+#o-nas .historia p{
+    font-size: 110%;
+    font-weight: 600;
+    text-align: left;
+}
+#o-nas .opis h2{
+    font-size: 140%;
+}
+#o-nas .opis p{
+    font-size: 110%;
+    font-weight: 600;
+    text-align: left;
+}
+#o-nas .galeria h2{
+    font-size: 140%;
+    margin-right: 6%;
+    margin-top: 10%;
+}
+#o-nas .galeria p{
+    font-size: 110%;
+    font-weight: 600;
+    text-align: left;
+}
+#o-nas .galeria a{
+    margin-left: 35%;
+    font-size: 140%;
+}
+
+    /* Galeria */
+section#galeria{
+    margin-top: 65%;
+    margin-bottom: 10%;
+}
+section#galeria h2{
+    font-size: 180%;
+    margin-bottom: 3%;
+}   
+    
+/*Slajder*/
+#container{
+    display: none;
+}
+    
+/* Main */
+main .start p{
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 120%;
+    font-weight: 600;
+}
+main #informacje{
+    margin-top: 65%;
+    margin-bottom: 6%;
+}
+main #informacje a{
+    font-size: 130%;
+    margin-left: 32%;
+}
+main .atrakcje{
+    margin-top: 3%;
+}
+main .atrakcje p{
+    font-size: 120%;
+}
+main .atrakcje h2{
+    font-size: 140%;
+}
+main .statystyki{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+main .statystyki figure{
+    background-color: #4169E1;
+    margin: 0 auto;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: baseline;
+}
+main .statystyki figure img{
+    width: 20%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-right: 1%;
+    margin-left: 3.5%
+}
+main .statystyki figcaption{
+    display: none;  
+}
+    
+/* Kontakt */
+section#kontakt{
+    margin-top: 65%;
+    margin-bottom: 10%;
+}
+#kontakt .box h2{
+    font-size: 140%;
+}
+#kontakt .box{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+#kontakt .box fieldset{
+    padding: 4%;
+}
+#kontakt fieldset p{
+    font-size: 100%;
+    margin-bottom: -2%;
+    }
+#kontakt input[type=text]{
+    width: 60%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    margin-left: 20%;
+    margin-bottom: -2%;
+}
+#kontakt textarea
+{
+    width: 60%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    margin-left: 20%;
+    margin-bottom: -2%;
+}
+#kontakt input[type=submit]
+{
+    width: 40%;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    margin-left: 28%;
+    margin-top: 2%;
+}
+#kontakt input[type=submit]:hover
+{
+    background-color: #69AC12;
+}
+#kontakt input[type=reset]{
+    width: 40%;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    margin-top: 2%;
+    margin-left: 28%;
+}
+#kontakt input[type=reset]:hover
+{
+    background-color: #FC0A1C;
+}
+   
+    
+/*Footer*/
+footer{
+    position: relative;
+    margin-top: 6%;
+    height: 11em;
+    width: 100%;
+    bottom: 0;
+    background-color: #4169E1;
+}  
+footer a img{
+    padding: 7%;
+    margin-top: 30%;
+    width: 70%;
+    margin-left: 30%;
+}   
+footer h3{
+   display: none;
+}   
+footer .linki{
+   display: none;
+}
+}
+
+
+
+@media only screen and (max-width: 425px){
+/* Header */
+    #home .logo img{
+    width: 45%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 28%;
+    overflow: hidden;
+    }   
+
+/* Menu */
+#menu {
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+}
+nav#menu > ul{
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    z-index: 7;
+}      
+nav#menu > ul > li{  
+    float: left;
+    width: 100%;
+}        
+nav#menu > ul > li > a{
+    display: block;
+    padding: 4%;
+    border: 3px solid #f3ecdb;
+    border-collapse: collapse;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 100%;
+    font-weight: 600;
+    z-index: 9;
+    transition-duration: 0.5s;
+}     
+nav#menu ul > li:hover a{
+    background-color: #0047ab;
+}
+ 
+/* Cennik */
+#cennik{
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+#cennik h2{
+    margin-left: 1%;
+    font-size: 160%;
+}
+#cennik table{
+    margin-left: 10%;
+    width: 80%;
+}
+#cennik table th{
+    font-size: 90%;
+}
+#cennik table td{
+    font-size: 90%;
+    font-weight: 600;
+}
+    
+ /* Oferta */
+section#oferta{
+    margin-top: 65%;
+    margin-bottom: 5%;
+}
+#oferta .oferta h2{
+    margin-left: 5%;
+    font-size: 160%;
+}
+#oferta .oferta figure{
+    position: relative;
+    width: 60%;
+    display: block;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#oferta .oferta  figure img{
+    width: 100%;
+}
+#oferta .oferta figure h3{
+    font-size: 150%;
+    margin-right: 30%;
+    margin-top: 1%;
+}
+#oferta .oferta figcaption{
+    font-size: 120%;
+    font-weight: 600;
+    text-align: center;
+}   
+    
+ /* O nas */
+section#o-nas{
+    margin-top: 65%;
+    margin-bottom: 6%;
+}
+#o-nas .historia h2{;
+    font-size: 150%;
+}
+#o-nas .historia p{
+    font-size: 130%;
+    font-weight: 600;
+    text-align: left;
+}
+#o-nas .opis h2{
+    font-size: 150%;
+}
+#o-nas .opis p{
+    font-size: 130%;
+    font-weight: 600;
+    text-align: left;
+}
+#o-nas .galeria h2{
+    font-size: 150%;
+    margin-right: 6%;
+    margin-top: 10%;
+}
+#o-nas .galeria p{
+    font-size: 130%;
+    font-weight: 600;
+    text-align: left;
+}
+#o-nas .galeria a{
+    margin-left: 37%;
+    font-size: 160%;
+}
+
+    /* Galeria */
+section#galeria{
+    margin-top: 65%;
+    margin-bottom: 10%;
+}
+section#galeria h2{
+    font-size: 180%;
+    margin-bottom: 3%;
+}   
+    
+/*Slajder*/
+#container{
+    display: none;
+}
+    
+/* Main */
+main .start p{
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 130%;
+    font-weight: 600;
+}
+main #informacje{
+    margin-top: 65%;
+    margin-bottom: 6%;
+}
+main #informacje a{
+    font-size: 150%;
+    margin-left: 32%;
+}
+main .atrakcje{
+    margin-top: 3%;
+}
+main .atrakcje p{
+    font-size: 130%;
+}
+main .atrakcje h2{
+    font-size: 150%;
+}
+main .statystyki{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+main .statystyki figure{
+    background-color: #4169E1;
+    margin: 0 auto;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: baseline;
+}
+main .statystyki figure img{
+    width: 20%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-right: 1%;
+    margin-left: 3.5%
+}
+main .statystyki figcaption{
+    display: none;  
+}
+    
+/* Kontakt */
+section#kontakt{
+    margin-top: 65%;
+    margin-bottom: 10%;
+}
+#kontakt .box h2{
+    font-size: 140%;
+}
+#kontakt .box{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+#kontakt .box fieldset{
+    padding: 4%;
+}
+#kontakt fieldset p{
+    font-size: 110%;
+    margin-bottom: -2%;
+    }
+#kontakt input[type=text]{
+    width: 60%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    margin-left: 20%;
+    margin-bottom: -2%;
+}
+#kontakt textarea
+{
+    width: 70%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    margin-left: 15%;
+    margin-bottom: -2%;
+}
+#kontakt input[type=submit]
+{
+    width: 50%;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    margin-left: 25%;
+    margin-top: 2%;
+}
+#kontakt input[type=submit]:hover
+{
+    background-color: #69AC12;
+}
+#kontakt input[type=reset]{
+    width: 50%;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    margin-top: 2%;
+    margin-left: 25%;
+}
+#kontakt input[type=reset]:hover
+{
+    background-color: #FC0A1C;
+}
+   
+    
+/*Footer*/
+footer a img{
+    padding: 12%;
+    margin-top: 30%;
+    width: 70%;
+    margin-left: 35%;
+}   
+footer h3{
+   display: none;
+}   
+footer .linki{
+   display: none;
+}
+}

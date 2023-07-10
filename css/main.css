@@ -1,0 +1,471 @@
+/* Body */
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #f3ecdb;
+}
+
+/* Header */
+#home{
+    background-color: #4169E1;
+}
+.logo img{
+    width: 25%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 38%;
+    overflow: hidden;
+}
+
+/* Menu */
+#menu{
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+}
+#menu > ul{
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    z-index: 7;
+}      
+#menu > ul > li{  
+    float: left;
+    width: 25%;
+    height: 20%;
+    margin: 0;
+    padding: 0;
+}        
+#menu > ul > li > a{
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    background-color: #4169E1;
+    color: white;
+    padding: 8%;
+    border: 3px solid #f3ecdb;
+    border-collapse: collapse;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 120%;
+    font-weight: 600;
+    z-index: 9;
+    transition-duration: 0.5s;
+}     
+#menu ul > li:hover a{
+    background-color: #0047ab;
+}
+
+/* Main */
+main h2{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    color: #4169E1;
+    font-size: 220%; 
+}
+.start p{
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 160%;
+    font-weight: 600;
+}
+main p{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: #4169E1;
+    font-size: 150%;
+    font-weight: 600;
+}
+#informacje{
+    margin-top: 8%;
+    margin-bottom: 6%;
+}
+#informacje a{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-left: 46%;
+    text-align: center;
+    color: #4169E1;
+    font-size: 180%;
+}
+.atrakcje{
+    margin-top: 3%;
+}
+.statystyki{
+    margin-top: 3%;
+}
+.statystyki figure{
+    background-color: #4169E1;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    display: flex;
+    align-items: baseline;
+}
+.statystyki figure img{
+    margin-left: 6%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-right: -1%;
+}
+.statystyki figcaption{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    font-size: 130%;
+    text-align: center; 
+    margin-left: 1%;
+}
+/* O nas */
+#o-nas{
+    margin-top: 12%;
+    margin-bottom: 6%;
+}
+.historia h2{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    color: #4169E1;
+    font-size: 220%;
+}
+.historia p{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align:justify;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: #4169E1;
+    font-size: 140%;
+    font-weight: 600;
+}
+.opis h2{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    color: #4169E1;
+    font-size: 220%;
+}
+.opis p{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align:justify;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: #4169E1;
+    font-size: 140%;
+    font-weight: 600;
+}
+.galeria h2{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    color: #4169E1;
+    font-size: 220%;
+}
+.galeria p{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align:justify;
+    margin-left: 35%;
+    margin-right: 30%;
+    color: #4169E1;
+    font-size: 140%;
+    font-weight: 600;
+}
+.galeria a{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    margin-left: 48%;
+    color: #4169E1;
+    font-size: 150%;
+    font-weight: 600;
+}
+
+/* Galeria */
+#galeria{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+#galeria h2{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    color: #4169E1;
+    font-size: 210%;
+    margin-bottom: 3%;
+}
+.foto{
+    width: 45%;
+    margin-left: 28%;
+    margin-bottom: 5%;
+    opacity: 0.7;
+    border-radius: 5px;
+    border: 5px solid #4169E1;
+    box-sizing: border-box;
+    display: flex;
+    overflow: hidden;
+}
+.foto img{
+    width: 40%;
+    flex-basis: 100%;
+}
+.foto:hover{
+    opacity: 1;
+    transition: 0.3s all ease-in-out;
+    transform: scale(1.1);
+}
+
+#oferta{
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+.oferta h2{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    margin-right: 2%;
+    color: #4169E1;
+    font-size: 230%;
+}
+.oferta figure{
+    position: relative;
+    width: 47.3%;
+    height: 50%;
+    display: block;
+    margin-left: 25%;
+}
+.oferta figure img{
+    border: 3px solid #4169E1;
+    width: 100%;
+}
+.oferta  figure h3{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    color: #4169E1;
+    font-size: 200%;
+    margin-right: 45%;
+    margin-top: 1%;
+}
+.oferta figcaption{
+    position: relative;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #4169E1;
+    font-size: 160%;
+    font-weight: 600;
+}
+
+/* Cennik */
+#cennik{
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+h2{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    color: #4169E1;
+    font-size: 210%;
+}
+table{
+    margin-left: 30%;
+    margin-right: 50%;
+    border-spacing: 10px;
+    border: 5px solid #0047ab;
+    height: 10%;
+    width: 40%;
+    text-align: center;
+    background-color: #4169E1;
+}
+table th{
+    border: 5px solid #4169E1;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 130%;
+    color: white;
+}
+table td{
+    border: 5px solid #4169E1;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 130%;
+    color: white;
+    font-weight: 600;
+}
+
+/* Kontakt */
+#kontakt{
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+.box h2{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    color: #4169E1;
+    font-size: 210%;
+}
+.box{
+    margin-left: 32%;
+    margin-right: 30%;
+}
+.box fieldset{
+    padding: 5%;
+    background-color: #4169E1;
+    border: 5px solid #0047ab;
+}
+.box fieldset p{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-size: 130%;
+    margin-bottom: -2%;
+}
+input[type=text]{
+    width: 48%;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    color: #777777;
+    padding: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    box-sizing: border-box;
+    outline: none;
+    margin-left: 26%;
+    margin-bottom: -2%;
+}
+textarea
+{
+    width: 48%;
+    color: #777777;
+    font-family: 'Source Sans Pro', sans-serif;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    box-sizing: border-box;
+    outline: none;
+    margin-left: 26%;
+    margin-bottom: -2%;
+}
+input[type=submit]
+{
+    width: 24%;
+    background-color: #f3ecdb;
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    color: #4169E1;
+    padding: 12px 8px;
+    border: none;
+    border-radius: 8px;
+    letter-spacing: 2px;
+    outline: none;
+    margin-left: 26%;
+    margin-top: 2%;
+}
+input[type=submit]:hover
+{
+    background-color: #69AC12;
+}
+input[type=reset]{
+    width: 24%;
+    background-color: #f3ecdb;
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    color: #4169E1;
+    padding: 12px 8px;
+    border: none;
+    border-radius: 8px;
+    letter-spacing: 2px;
+    outline: none;
+    margin-top: 2%;
+}
+input[type=reset]:hover
+{
+    background-color: #FC0A1C;
+}
+
+/* Slajder */
+#container{
+    width: 45%;
+    margin-left: 28%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+#slider figure img{
+    width: 20%;
+    float: left;
+}
+#slider figure{
+    position: relative;
+    margin: 0;
+    left: 0;
+    width: 500%;
+    animation: 30s slider infinite;
+}
+#slider{
+    overflow: hidden;
+}
+@keyframes slider{
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }
+}
+        
+/* Footer */
+footer{
+    position: relative;
+    margin-top: 3%;
+    height: 13em;
+    width: 100%;
+    bottom: 0;
+    background-color: #4169E1;
+}
+a img{
+    padding: 15%;
+    margin-top: 15%;
+}
+h3{
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    float: right;
+    margin-top:-6%;
+    margin-right: 23%;
+    font-size: 125%;
+}
+.linki{
+    color: white;
+    float: right;
+    margin-top:-4%;
+    margin-right: 20%;
+    font-size: 125%
+}
+.linki a{
+    overflow: hidden;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.copyright{
+    color:white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 130%;
+}
+
+/* Ikony */
+ul.ikony {
+    cursor: default;
+    list-style: none;
+    padding-left: 0;
+}
+ul.ikony li {
+    display: inline-block;
+    padding: 0 1em 0 0;
+}
+ul.ikony li:last-child {
+    padding-right: 0;
+}
+@media screen and (max-width: 736px) {
+    ul.ikony li {
+        padding: 0 0.75em 0 0;
+    }
+}
