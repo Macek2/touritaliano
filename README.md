@@ -1,6 +1,6 @@
 **SIMPLE TRAVEL AGENCY WEBSITE**
 
-*A project for high school credit including basic CSS and HTML mechanisms.*
+*A project for high school credit including basic CSS and HTML mechanisms. It is available in Polish for the time being, I am thinking of creating a script to add an English version.*
 
 **WHAT I USED?**
 
